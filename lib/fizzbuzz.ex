@@ -3,10 +3,8 @@ defmodule Fizzbuzz do
   Documentation for `Fizzbuzz`.
   """
 
-
-
-  def number(1) do
-    1
+  def number(n) do
+    n
   end
 
 
