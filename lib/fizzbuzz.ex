@@ -4,7 +4,7 @@ defmodule Fizzbuzz do
   """
 
   def number(n) do
-    n
+    "#{n}"
   end
 
 
