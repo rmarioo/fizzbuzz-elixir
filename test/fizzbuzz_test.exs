@@ -6,5 +6,7 @@ defmodule FizzbuzzTest do
     assert Fizzbuzz.hello() == :world
   end
 
-
+  test "1 should return 1" do
+    assert Fizzbuzz.number(1) == 1
+  end
 end

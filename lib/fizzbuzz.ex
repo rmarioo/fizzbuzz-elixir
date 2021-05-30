@@ -16,5 +16,9 @@ defmodule Fizzbuzz do
     :world
   end
 
+  def number(1) do
+    1
+  end
+
 
 end
