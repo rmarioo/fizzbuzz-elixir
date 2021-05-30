@@ -8,8 +8,8 @@ defmodule FizzbuzzTest do
   test "2 should return 2" do
     assert Fizzbuzz.number(2) == "2"
   end
-#
-#  test "3 should return fizz" do
-#    assert Fizzbuzz.number(3) == "fizz"
-#  end
+
+  test "3 should return fizz" do
+    assert Fizzbuzz.number(3) == "fizz"
+  end
 end
