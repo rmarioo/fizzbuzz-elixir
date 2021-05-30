@@ -5,9 +5,7 @@ defmodule Fizzbuzz do
 
   def number(3), do: "fizz"
 
-  def number(n) do
-    "#{n}"
-  end
+  def number(n), do: "#{n}"
 
 
 end
