@@ -16,4 +16,19 @@ defmodule FizzbuzzTest do
   test "4 should return 4" do
     assert Fizzbuzz.number(4) == "4"
   end
+
+  test "5 should return buzz" do
+    assert Fizzbuzz.number(5) == "buzz"
+  end
+
+  test "6 should return fizz" do
+    assert Fizzbuzz.number(6) == "fizz"
+  end
+
+  test "15 should return fizzbuzz" do
+    assert Fizzbuzz.number(15) == "fizzbuzz"
+  end
+  test "30 should return fizzbuzz" do
+    assert Fizzbuzz.number(30) == "fizzbuzz"
+  end
 end
